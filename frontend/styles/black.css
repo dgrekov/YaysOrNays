@@ -1,0 +1,4 @@
+body { background-color: #222; }
+#logo .site-title a { text-shadow: 0 1px 0 #000}
+#logo .site-description { text-shadow: 0 1px 0 #000}
+#footer p { text-shadow: 0 1px 0 #000; }

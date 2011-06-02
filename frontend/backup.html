@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+
+<title>Yays Or Nays | What do you think?</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+      
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js'></script>
+<script type='text/javascript' src='js/settings.js'></script>
+<script type='text/javascript' src='js/model.js'></script>
+<script type='text/javascript' src='js/controller.js'></script>
+<script type='text/javascript' src='js/view.js'></script>
+
+<!-- Google Webfonts -->
+<link href="http://fonts.googleapis.com/css?family=Lobster|Droid+Serif:r,b,i,bi" rel="stylesheet" type="text/css" />
+
+<!-- Woo Custom Typography -->
+<style type="text/css">
+#main #intro p { font:normal 14px/1.5em Droid Serif;color:#555555; }
+#footer p { font:normal 14px/1em Lobster;color:#999; }
+</style>
+
+<!-- Custom Stylesheet -->
+<link href="custom.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="home blog chrome">
+
+<div id="wrapper">
+           
+    <div id="header" class="col-full">
+               
+        <div id="logo">
+                <img src="images/logo.png" alt="Placeholder" />
+                    <h1 class="site-title">Placeholder</h1>
+                    <span class="site-description">Just another WooThemes demo site</span>
+        </div><!-- /#logo -->
+                  
+    </div><!-- /#header -->           
+    <div id="content" class="col-full">
+        <div id="main">
+                        <div id="intro" class="block">
+                <h3><span>An introduction text</span></h3>
+                <p>We are currently building a new site which will be ready soon. In the mean time you can follow us on Twitter and Facebook to stay updated on our progress.  </p>
+            </div><!-- #intro -->
+					<ul id="ContestList"></ul>                                    
+                        <div id="social" class="block">
+                <h3><span>Follow us</span></h3>
+                <div class="social-links">
+                                        <div class="link">
+                        <a href="http://www.twitter.com/woothemes" class="twitter">Twitter</a>
+                    </div>
+                                                            <div class="link">
+                        <a href="http://www.facebook.com/woothemes" class="facebook">Facebook</a>
+                    </div>
+                                                            <div class="link">
+                        <a href="mailto:hello@email.com" class="contact">Contact</a>
+                    </div>
+                                                            <div class="link last">
+                        <a href="http://demo.woothemes.com/placeholder/feed/" class="subscribe">Subscribe</a>
+                    </div>
+                                        <div class="fix"></div>
+                </div>
+            </div><!-- #social -->
+                        
+                        <div id="countdown" class="block">
+            </div>
+                        
+                        <div id="newsletter">
+                <p>Sign up for our newsletter</p>
+                
+                                
+                <form class="newsletter-form" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=woothemes', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                    <input class="email" type="text" name="email" value="E-mail" onfocus="if (this.value == 'E-mail') {this.value = '';}" onblur="if (this.value == '') {this.value = 'E-mail';}" />
+                    <input type="hidden" value="woothemes" name="uri"/>
+                    <input type="hidden" value="Placeholder" name="title"/>
+                    <input type="hidden" name="loc" value="en_US"/>         
+                    <input class="submit" type="submit" name="submit" value="Submit" />
+                </form>
+                
+                                
+<!--
+                <form method="get" class="newsletter-form" action="http://demo.woothemes.com/placeholder" >
+                    <input type="text" class="email" value="E-mail" onfocus="if (this.value == 'E-mail') {this.value = '';}" onblur="if (this.value == '') {this.value = 'E-mail';}" />
+                    <input type="submit" class="submit" value="Submit" />
+                </form>
+-->
+                
+                <div class="fix"></div>
+            </div>
+            
+        </div>
+    </div><!-- /#content -->
+        
+    
+    <div id="footer" class="col-full">
+    
+        <div id="copyright">
+                    <p>&copy; 2011 Placeholder. All Rights Reserved. <img class="divider" src="images/footer-sep.png" width="2" height="19" alt="" /> <a href="http://www.woothemes.com"><img src="images/woothemes.png" width="74" height="19" alt="Woo Themes" /></a></p> 
+                </div>
+                
+    </div><!-- /#footer  -->
+
+</div><!-- /#wrapper -->
+<script type="JavaScript">
+	findAllContests(populate);
+</script>
+</body>
+</html>
